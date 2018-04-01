@@ -1,8 +1,8 @@
 /************************************************
 Theme Name: DO - Corporate Business Template
-Author: ThemeBeer
-Author URI: http://themebeer.com
-Version: 1.2
+Author: Mamun Chowdhury
+Author URI: http://mamunchowdhury.com
+Version: 2.0
 ************************************************ */
 
 /*--------------------------------------------------
@@ -116,7 +116,7 @@ Version: 1.2
 :: -- FILTER BUTTON
 :: -- WORK ITEMS
 :: -- HOVER EFFECT
-:: 
+::
 :: -----------------------------------
 :: PORTFOLIO SINGLE PAGE ONE
 :: -----------------------------------
@@ -145,7 +145,7 @@ Version: 1.2
 
 /********************************************************
 *                                                       *
-                        General                         
+                        General
 *                                                       *
 *********************************************************/
 .fix{
@@ -182,7 +182,7 @@ DARK
         -ms-transform: translateX(-50%);
          -o-transform: translateX(-50%);
             transform: translateX(-50%);
-    
+
 }
 
 .do-section-heading h1{
@@ -222,7 +222,7 @@ SECTION HEADING (LIGHT)
         -ms-transform: translateX(-50%);
          -o-transform: translateX(-50%);
             transform: translateX(-50%);
-    
+
 }
 
 .do-section-heading-light h1{
@@ -355,12 +355,12 @@ DO SOLID BUTTON
     -webkit-border-radius: 20px;
        -moz-border-radius: 20px;
          -o-border-radius: 20px;
-            border-radius: 20px; 
+            border-radius: 20px;
     -webkit-transition: all .3s;
        -moz-transition: all .3s;
         -ms-transition: all .3s;
          -o-transition: all .3s;
-            transition: all .3s;   
+            transition: all .3s;
 }
 
 .do-btn-round-solid:hover{
@@ -753,15 +753,61 @@ SKILLBAR
     color: #c0c0c0;
     margin-bottom: 0;
 }
+/*******************************************************
+                SERVICES PAGE TITLE
+********************************************************/
+.do-services-title-section{
+  margin-top: 25px;
+  padding: 10px 0;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #f1f1f1;
+}
+.do-services-title-section .do-services-title-wrapper{
+  overflow: hidden;
+}
+.do-services-title-section .do-services-heading a{
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: #111111;
+  margin: 0;
+  margin-left: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.do-services-title-section .do-services-hidden ul li{
+  font-family: 'brandon-grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 7px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+.do-services-title-section .do-services-hidden ul li:hover{
+  font-size: 12px;
+  color: #8ec53f;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s
+}
+.do-services-fafa{
+  float: right;
+}
 
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                 PAGE TITLE (NORMAL)
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-normal-page-title-section{
     padding: 50px 0;
     background-color: #f9f9f9;
-    border-bottom: 1px solid #f1f1f1;  
+    border-bottom: 1px solid #f1f1f1;
 }
 
 .do-normal-page-title-section .do-page-title-wrapper{
@@ -787,7 +833,7 @@ SKILLBAR
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
-    padding-bottom: 17px;    
+    padding-bottom: 17px;
 }
 
 .do-normal-page-title-section .do-default-page-title p:before{
@@ -868,7 +914,7 @@ BREADCUMB
     *zoom: 1;
 }
 
-/** * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/** * * * * * * * * * * * * * * * * * * * * * * * * * *
                         CTA ONE
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-cta-one-section{
@@ -955,11 +1001,11 @@ BREADCUMB
     font-family: 'Open sans', sans-serif;
     font-size: 16px;
     color: #ffffff;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
 
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     SOCIAL LINK SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-social-link-section{
@@ -992,7 +1038,7 @@ BREADCUMB
 }
 
 .do-social-link-section a:first-child{
-    border-left: 1px solid #333333;   
+    border-left: 1px solid #333333;
 }
 
 .do-social-link-section a span{
@@ -1054,9 +1100,13 @@ BREADCUMB
     background-color: #d34836;
 }
 
-/* DRIBBBLE */
+/* LINKEDIN */
 .do-social-link-section a.do-linkedin:hover{
     background-color: #0077b5;
+}
+/*  DRIBBBLE */
+.do-social-link-section a.do-dribbble:hover{
+  background-color: #837a7b;
 }
 
 /********************************
@@ -1184,7 +1234,7 @@ PRELOADER STYLING
 
 /********************************
 Scroll Up
-********************************/ 
+********************************/
 #scrollUp {
     bottom: 30px;
     right: 30px;
@@ -1855,11 +1905,11 @@ MENU
        -moz-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
         -ms-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
          -o-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-            transition-timing-function: cubic-bezier(0.7,0,0.3,1);    
+            transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 }
 
-/* 
-SOCIAL ICON 
+/*
+SOCIAL ICON
 */
 .do-side-menu-widget-wrap .do-side-menu-social-icon{
     position: absolute;
@@ -1927,7 +1977,7 @@ MENU STYLE 2
     background: rgba(0,0,0,0);
     -webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
        -moz-box-shadow: 0 0 0 rgba(0,0,0,0);
-            box-shadow: 0 0 0 rgba(0,0,0,0);    
+            box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 
 .do-homepage-2nd header .do-main-menu ul.do-menus > li > a{
@@ -1952,7 +2002,7 @@ MENU STYLE 2
 }
 
 .do-homepage-2nd .do-main-menu.minified ul.do-menus > li > a:after{
-    bottom: -21px;  
+    bottom: -21px;
 }
 
 .do-homepage-2nd header .do-main-menu ul.do-menus > li > a:hover:after,
@@ -2209,7 +2259,7 @@ DROPDOWN MENU
     width: 35px;
     height: 100px;
     cursor: pointer;
-    background-color: rgba(0,0,0,0.5);   
+    background-color: rgba(0,0,0,0.5);
 }
 
 .sp-previous-arrow:before {
@@ -2406,7 +2456,7 @@ DROPDOWN MENU
 }
 
 
-/** * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/** * * * * * * * * * * * * * * * * * * * * * * * * * *
                         CUSTOM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-custom-section{
@@ -2515,7 +2565,7 @@ DROPDOWN MENU
 }
 
 
-/** * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/** * * * * * * * * * * * * * * * * * * * * * * * * * *
                     FEATURE SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-feature-section{
@@ -2523,7 +2573,7 @@ DROPDOWN MENU
     padding: 65px 0;
 }
 
-/** * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/** * * * * * * * * * * * * * * * * * * * * * * * * * *
                     WORK SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-portfolio-section{
@@ -2531,7 +2581,7 @@ DROPDOWN MENU
     padding-bottom: 60px;
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     CUSTOM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-custom-section-with-img{
@@ -2573,7 +2623,7 @@ DROPDOWN MENU
     margin-top: 35px;
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     COUNTER SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-counter-section{
@@ -2615,7 +2665,7 @@ DROPDOWN MENU
 
 
 
-/** * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/** * * * * * * * * * * * * * * * * * * * * * * * * * *
                     BLOG SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-blog-section{
@@ -2624,7 +2674,7 @@ DROPDOWN MENU
 }
 
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     CUSTOM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-custom-section-three{
@@ -2646,7 +2696,7 @@ DROPDOWN MENU
     margin-bottom: 0;
 }
 
-/** * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/** * * * * * * * * * * * * * * * * * * * * * * * * * *
                     TESTIMONIAL SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-testimonial-section{
@@ -2688,7 +2738,7 @@ DROPDOWN MENU
 
 .do-testimonial .do-testimonial-slides span{
     color: #c0c0c0;
-    margin: 10px 0;   
+    margin: 10px 0;
     display: block;
     letter-spacing: 6px;
 }
@@ -2726,7 +2776,7 @@ DROPDOWN MENU
     content: '\f104';
     font-family: 'FontAwesome';
     font-size: 15px;
-    text-align: center; 
+    text-align: center;
 }
 
 .do-testimonial .owl-controls .owl-buttons div.owl-next{
@@ -2737,7 +2787,7 @@ DROPDOWN MENU
     content: '\f105';
     font-family: 'FontAwesome';
     font-size: 15px;
-    text-align: center; 
+    text-align: center;
 }
 
 /*---------------------
@@ -2770,11 +2820,11 @@ DROPDOWN MENU
 }
 
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     TEAM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-team-section{
-    background: url(../images/shadow-top.png) no-repeat center top;    
+    background: url(../images/shadow-top.png) no-repeat center top;
     background-color: #ffffff;
     -webkit-background-size: 100%;
     background-size: 100%;
@@ -2987,7 +3037,7 @@ HOVER
 }
 
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     VIDEO SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-custom-video-section{
@@ -3027,7 +3077,7 @@ HOVER
 .do-custom-video-section .do-custom-video-content-wrapper{
     text-align: center;
     position: relative;
-    z-index: 10; 
+    z-index: 10;
 }
 
 .do-custom-video-section .do-custom-video-content-wrapper{}
@@ -3049,7 +3099,7 @@ HOVER
 }
 
 .do-custom-video-section .do-custom-video-content-wrapper a.do-btn-round-outline{
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 
@@ -3103,7 +3153,7 @@ HOVER
     letter-spacing: 2px;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
 .do-hero-header-wrapper.do-fullscreen-slider .do-hero-header-btns{
@@ -3511,7 +3561,7 @@ bann
 }
 
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     CUSTOM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-about-custom-section{
@@ -3545,7 +3595,7 @@ CUSTOM SECTION DETAILS
 }
 
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     TEAM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-about-us-page .do-team-section{
@@ -3561,7 +3611,7 @@ CUSTOM SECTION DETAILS
     color: #888888;
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                 VIDEO TESTIMONIAL SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-about-us-page .do-custom-video-section {
@@ -3580,7 +3630,7 @@ CUSTOM SECTION DETAILS
 
 .do-about-us-page .do-testimonial .do-testimonial-slides span{
     color: #ffffff;
-    margin: 10px 0;   
+    margin: 10px 0;
     display: block;
     letter-spacing: 6px;
 }
@@ -3616,7 +3666,7 @@ CUSTOM SECTION DETAILS
 *                       BLOG SINGLE PAGE                *
 *                                                       *
 *********************************************************/
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                 SINGLE PAGE CONTENT
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-blog-single-wrapper{
@@ -3646,7 +3696,7 @@ CUSTOM SECTION DETAILS
 }
 
 
-/* * * * * * * * * * * * * 
+/* * * * * * * * * * * * *
     BLOG SINGLE TEXT
 * * * * * * * * * * * * */
 .do-blog-single-details{
@@ -3705,7 +3755,7 @@ CUSTOM SECTION DETAILS
     color: #000;
     font-weight: 700;
     margin: 0;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 .do-blog-single-details .do-blog-post-title-wrapper .do-blog-post-titles h1 a{
     display: inline-block;
@@ -3743,7 +3793,7 @@ CUSTOM SECTION DETAILS
 }
 
 
-/************************ 
+/************************
         BLOG COMMENTS
 ************************/
 .do-blog-single-details .do-blog-comments-wrapper{
@@ -3980,7 +4030,7 @@ CUSTOM SECTION DETAILS
 .do-creative-blog-items .do-blog-content .do-blog-date-wrapper span.do-date span.do-day{
     font-size: 15px;
     font-weight: 700;
-} 
+}
 
 .do-creative-blog-items .do-blog-content .do-blog-date-wrapper span.do-date span.do-mon{
     font-size: 8px;
@@ -4405,7 +4455,7 @@ Hover Effect
     right: 30px;
     width: 18px;
     height: 18px;
-    z-index: 2;  
+    z-index: 2;
 }
 
 .do-work-item-hover a.do-work-item-popup:before{
@@ -4511,7 +4561,7 @@ MAIN IMAGE
     display: block;
     overflow: hidden;
     width: 100%;
-} 
+}
 
 /**************************
 PORTFOLIO SINGLE DETAILS
@@ -4543,7 +4593,7 @@ PORTFOLIO SINGLE DETAILS
     margin-bottom: 0;
     line-height: 1.6;
     color: #888888;
-    text-align: justify;    
+    text-align: justify;
 }
 
 .do-portfolio-single-page-content .do-single-portfolio-details .do-wrok-info h3{
@@ -4802,7 +4852,7 @@ CONTACT ADDRESS
     line-height: 1;
     color: #000000;
     margin-top: 0;
-    margin-bottom: 25px;   
+    margin-bottom: 25px;
 }
 
 .do-contact-add-wrapper p{
@@ -4810,7 +4860,7 @@ CONTACT ADDRESS
     font-size: 13px;
     font-weight: 400;
     color: #888888;
-    margin-bottom: 0px;      
+    margin-bottom: 0px;
 }
 
 .do-contact-add-wrapper .do-contact-info{
@@ -4823,7 +4873,7 @@ CONTACT ADDRESS
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
-    color: #888888;    
+    color: #888888;
 }
 
 .do-contact-add-wrapper ul li.do-phone{
@@ -5100,7 +5150,7 @@ footer.do-footer .do-footer-bottom a.do-footer-author-name{
     border-color: #8ec53f;
 }
 
-/* * * * * * * * * * * * * 
+/* * * * * * * * * * * * *
        TAG CLOUD
 * * * * * * * * * * * * */
 .do-blog-sidebar .do-blog-sidebar-widget .do-tagcloud-wrapper,
@@ -5275,7 +5325,7 @@ footer.do-footer .do-footer-bottom a.do-footer-author-name{
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-counter-section-2{
     overflow: hidden;
-    padding: 65px 0; 
+    padding: 65px 0;
 }
 
 .do-counter-section-2 .do-counter-items{
@@ -5563,7 +5613,7 @@ DO LIST ITEM WITH ICON
     height: 200px;
     line-height: 200px;
     margin: 0 10px;
-    background-color: rgba(0,0,0,0.5); 
+    background-color: rgba(0,0,0,0.5);
 }
 
 .do-homepage-third .do-logo-slider .owl-controls{
@@ -5610,7 +5660,7 @@ LEFT CONTENT
     color: #ffffff;
     font-weight: 400;
     float: left;
-    margin-right: 20px;    
+    margin-right: 20px;
 }
 
 .do-header-topbar .do-topbar-content-wrap.do-topbar-content-left ul li i{
@@ -5634,7 +5684,7 @@ RIGHT CONTENT
 
 .do-header-topbar .do-topbar-content-wrap.do-topbar-content-right ul li{
     float: left;
-    margin-right: 15px; 
+    margin-right: 15px;
 }
 
 .do-header-topbar .do-topbar-content-wrap.do-topbar-content-right ul li:last-child{
@@ -5647,7 +5697,7 @@ RIGHT CONTENT
 }
 
 .do-header-topbar .do-topbar-content-wrap.do-topbar-content-right ul li i{
- 
+
 }
 
 
@@ -5726,7 +5776,7 @@ RIGHT CONTENT
 .do-homepage-fourth .do-counter-section-2{
     background-color: #31c2b1;
     overflow: hidden;
-    padding: 65px 0; 
+    padding: 65px 0;
 }
 
 .do-homepage-fourth .do-counter-section-2 .do-counter-items .do-counter-items-inner{
@@ -5980,8 +6030,8 @@ CONTACT SECTION
   transition: opacity 0.35s ease-in-out;
 }
 
-.do-contactmap-section .do-home-contact-form .do-contact-form input:focus:-ms-input-placeholder,  
-.do-contactmap-section .do-home-contact-form .do-contact-form textarea:focus:-ms-input-placeholder {  
+.do-contactmap-section .do-home-contact-form .do-contact-form input:focus:-ms-input-placeholder,
+.do-contactmap-section .do-home-contact-form .do-contact-form textarea:focus:-ms-input-placeholder {
   opacity: 0;
   -ms-transition: opacity 0.35s ease-in-out;
   transition: opacity 0.35s ease-in-out;
