@@ -1259,6 +1259,13 @@ input:focus{
 img{
   max-width: 100%;
 }
+.logo{
+  margin-top: -8px;
+}
+.do-why {
+	margin-top: 59px;
+	margin-left: -8px;
+}
 
 a:hover,
 a:focus,
@@ -1375,7 +1382,7 @@ ul.do-menus li a{
 ul.do-menus li a:hover,
 ul.do-menus li.active a{
     background-color: transparent;
-    color: #8ec53f;
+    color: #1e9346;
 }
 
 ul.do-menus li a:focus{
@@ -4783,6 +4790,9 @@ GOOGLE MAP
 /***************
 CONTACT FORM
 ***************/
+.do-contact-page-wrapper{
+  margin-top: -20px;
+}
 .do-contact-form-wrapper{
     width: 70%;
     padding-right: 35px;
